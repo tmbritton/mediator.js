@@ -1,5 +1,5 @@
 var assert = require('assert'),
-    mediator = require('../mediator.js').mediator;
+    mediator = require('../mediator.js');
 
 describe('Test Subscriptions', function() {
   describe('adding a subscription', function(){
