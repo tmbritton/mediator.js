@@ -28,7 +28,7 @@ mediator.subscribe('testEvent', function(data){
 });
 
 mediator.publish('testEvent', 'Hello World');
-``
+```
 ## The API
 
 ### mediator.publish(event_name, data)
