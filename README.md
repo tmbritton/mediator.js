@@ -21,7 +21,7 @@ $ npm install --save mediator.js
 Create a file named app.js. Inside copy:
 
 ```
-require('mediator.js');
+var mediator = require('mediator.js');
 
 mediator.subscribe('testEvent', function(data){
   console.log(data)
